@@ -1,0 +1,38 @@
+.tah1{
+    background-color: rgb(238, 149, 16);
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 200px;
+    padding: 5px;
+    padding-left: 100px;
+    border-radius: 10px;
+}
+
+.text{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.card-text{
+    font-weight: 700;
+}
+
+.card{
+    margin-left: 100px;
+    
+}
+
+.list{
+    margin-top: 50px;
+    
+}
+
+.navbar-brand{
+width: 100px;
+
+}
+
+.tabbar{
+    background-color: blue;
+    padding-left: 140px ;
+}
