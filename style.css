@@ -1,0 +1,252 @@
+body{
+    display: block;
+    
+    background-repeat: no-repeat;
+font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    width:100% ;
+    height: auto;
+   
+    display: flex;
+}
+.bgr-1px{
+    height: 1px ;
+    width: 100%;
+    background-color:  rgba(248, 159, 108, 0.5);
+    margin-bottom: 10px ;
+}
+.cv-left-one ,.cv-left-two ,.cv-left-three ,.cv-left-four{
+    margin: 15px 20px ;
+}
+.cv-left{
+flex-basis: 20%;
+background: rgba(240, 240, 240, 0.911);
+border-right:1px #555;
+
+}
+
+.cv-left-one{
+display: flex;
+flex-direction: column;
+
+}
+.cv-left-one-span1{
+text-align: left;
+margin: 20px 0 10px ;
+color: rgb(10, 9, 8) ;
+font-size: 20px ;
+font-weight: 700;
+}
+.cv-left-one-span2{
+text-align: left;
+font-size: 14px ;
+color:#333;
+}
+.cv-left-one-button{
+    display:flex;
+    flex-direction: row;
+    margin:20px 20px 0;
+}
+.cv-left-one-button1{
+background-color: orange;
+border-radius: 4px ;
+border:none;
+padding:5px ;
+}
+.cv-left-one-button2{
+    margin-left:10px ;
+   background-color:red;
+    border-radius: 4px ;
+    border:none ;
+    padding:5px ;
+}
+.cv-left-one-img{
+   
+    margin: 20px 20px 0 ;
+    text-align: left;
+}
+.cv-img{
+    width:120px ;
+    height: 120px ;
+    object-fit: cover ;
+    padding: 4px ;
+    border: 0.5px solid #999;
+    border-radius: 50%;
+}
+.cv-span3{
+    color: rgb(14, 10, 8);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px ;
+}
+.cv-left-two-0,.cv-left-two-1{
+   display: flex ;
+   align-items: center;
+}
+.cv-icon{
+margin-right: 10px ;
+color:  rgb(248, 159, 108);
+margin-top: 10px;
+margin-bottom: 10px ;
+
+}
+.cv-left-three-1{
+    color:#555;
+    font-size: 14px ;
+   margin: 10px 0 ;
+   line-height: 1.7rem ;
+
+}
+.cv-span4{
+    margin: 10px 0;
+    font-size: 15px ;
+    font-weight: 600;
+}
+.cv-left-two{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cv-left-three{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cv-left-four{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cv-right{
+flex-basis:80%;
+background-color: #fff;
+display:flex;
+flex-direction: column;
+margin:0 10px ;
+}
+.cv-right-1{
+    
+display:flex;
+
+height:20px ;
+padding:10px 0;
+background-color: rgb(226, 226, 226);
+border-radius: 5px ;
+margin:20px ;
+width:100%;
+
+}
+.cv-right-1-one{
+margin-left: 5px ;
+}
+.cv-right-1-one-link1{
+    text-decoration: none;
+    color:#555
+}
+.cv-right-2{
+display:flex;
+flex-direction: row;
+justify-content:space-between;
+}
+.cv-right-span {
+    font-size: 30px ;
+    font-weight: 500;
+}
+.cv-right-span-2{
+    display:flex;
+    flex-direction: row;
+
+}
+.cv-right-3{
+    background-color: rgb(160, 160, 160);
+    height:0.5px ;
+    width:100%;
+    margin:40px 10px ;
+}
+.cv-right-span-21{
+   
+    border:1px rgb(170, 170, 170) solid ;
+    border-radius: 3px ;
+    padding:5px ;
+    margin: auto 10px ;
+    align-items: center;
+  
+    text-align: center;
+    
+    
+}
+.cv-right-span-23{
+    border:1px #555 solid ;
+    border-radius: 3px ;
+    padding:0 5px ;
+    align-items: center;
+    background-color: red;
+    padding:5px ;
+    margin: auto 10px ;
+    align-items: center;
+  
+    text-align: center;
+    font-size: 15px ;
+    color:rgb(170, 170, 170);
+    
+}
+
+.cv-right-span-2-link{
+text-decoration: none;
+
+font-size: 14px ;
+    color:rgb(151, 151, 151);
+
+}
+.cv-right-span-2-link1{
+    text-decoration: none;
+    
+    font-size: 14px ;
+        color:#fff;
+    
+    }
+.cv-right-span-21:hover{
+    background-color: rgb(165, 165, 165);
+    color:#fff
+
+}
+.cv-right-span-21:focus{
+}
+.cv-right-span-2-link1{
+text-decoration: none;
+color:#fff;
+}
+.cv-right-4{
+    display:flex;
+    flex-direction: column;
+}
+.cv-right-41{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+.cv-right-411{
+    border: 0.5px #888 solid ;
+    width:100%;
+   
+    color:#000;
+    font-weight:600 ;
+    font-size: 14px ;
+    padding:5px ;
+  
+}
+.cv-right-42{
+border:0.5px #888 solid ;
+width:100%;
+padding :5px  0;
+
+}
+.cv-right-42-link,.cv-right-1-one-link,.cv-left-three-1-link{
+    color:rgb(24, 84, 250);
+    text-decoration: none;
+}
