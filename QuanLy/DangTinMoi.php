@@ -1,8 +1,8 @@
 <?php
-    // session_start();
-    // if(!isset($_SESSION["user"])){
-    //     header("location:/trotot/login.php");
-    // }
+    session_start();
+    if(!isset($_SESSION["user"])){
+        header("location:/trotot/login.php");
+    }
     include '../Backend/shared/header.php';
     include '../Backend/shared/navbar.php';
     ?>
